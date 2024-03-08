@@ -1,0 +1,26 @@
+package com.keduit.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.keduit.service.HelloService;
+
+import lombok.RequiredArgsConstructor;
+
+@Controller
+@RequiredArgsConstructor
+public class SampleController {
+
+	
+	private final HelloService HelloService;
+	
+	public void hello() {
+		
+		System.out.println(HelloService);
+		System.out.println(HelloService.sayHello());
+		System.out.println("Hello~");
+	}
+	
+	
+	
+	
+}

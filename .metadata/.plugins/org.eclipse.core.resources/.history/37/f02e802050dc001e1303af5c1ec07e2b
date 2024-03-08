@@ -1,0 +1,13 @@
+package com.keduit.sample;
+
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+@RunWith
+public class SampleTest {
+	
+	@Autowired
+	private Restaurant restaurant;
+
+}
